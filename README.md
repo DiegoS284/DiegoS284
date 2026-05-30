@@ -173,7 +173,7 @@ const diego: StudentDeveloper = {
 
 <div align="center">
   <br />
-  <img src="nexa.svg" width="220" alt="Nexa Logo" />
+  <img src="nexa-logo.svg" width="220" alt="Nexa Logo" />
   <br /><br />
 </div>
 

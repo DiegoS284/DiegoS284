@@ -94,11 +94,12 @@ const diego: StudentDeveloper = {
 
 <p>A structured showcase of the languages, frameworks, and engineering tools I build with:</p>
 
+<!-- Emojis are used for headers to guarantee perfect, break-proof rendering on all systems -->
 <table>
   <tr>
     <td align="center" width="180">
       <br />
-      <img src="https://img.icons8.com/cosmic/48/00F0FF/code.png" width="32" /><br />
+      <font size="6">💻</font><br />
       <strong>Languages</strong>
       <br /><br />
     </td>
@@ -113,7 +114,7 @@ const diego: StudentDeveloper = {
   <tr>
     <td align="center" width="180">
       <br />
-      <img src="https://img.icons8.com/cosmic/48/00F0FF/web.png" width="32" /><br />
+      <font size="6">🎨</font><br />
       <strong>Frontend</strong>
       <br /><br />
     </td>
@@ -126,7 +127,7 @@ const diego: StudentDeveloper = {
   <tr>
     <td align="center" width="180">
       <br />
-      <img src="https://img.icons8.com/cosmic/48/00F0FF/server.png" width="32" /><br />
+      <font size="6">⚙️</font><br />
       <strong>Backend & DBs</strong>
       <br /><br />
     </td>
@@ -141,8 +142,8 @@ const diego: StudentDeveloper = {
   <tr>
     <td align="center" width="180">
       <br />
-      <img src="https://img.icons8.com/cosmic/48/00F0FF/design.png" width="32" /><br />
-      <strong>Design & Workspace</strong>
+      <font size="6">📐</font><br />
+      <strong>Design & Work</strong>
       <br /><br />
     </td>
     <td align="left">
@@ -169,8 +170,19 @@ const diego: StudentDeveloper = {
 ## 📁 Featured Projects
 
 ### 🌟 Nexa — Cold-Chain Operations SaaS
-*   **Concept**: A B2B Software-as-a-Service system focused on temperature tracking, compliance logs, and logistics workflows for cold-chain inventory management.
-*   **Key Learnings**: UX research for operations staff, database integrity constraints, and scalable API design.
+
+<div align="center">
+  <br />
+  <img src="nexa.svg" width="220" alt="Nexa Logo" />
+  <br /><br />
+</div>
+
+*   **Concept**: A modern, B2B Software-as-a-Service cold-chain logistics platform engineered to solve real-time temperature tracking, logistics compliance, and audit trail management for highly sensitive biological, pharmaceutical, and high-value cargo.
+*   **Architectural Philosophy**: Developed strictly following **Clean Architecture** principles to separate core domain business rules (Entities & Use Cases) from framework-dependent delivery layers (Web APIs, controllers, and database adapters).
+*   **Core Capabilities**:
+    *   **Automated Threshold Alerts**: Active monitoring simulation with automatic temperature breach notifications.
+    *   **Secure Audit Trail**: Immutable compliance logging meeting industry regulations.
+    *   **Modular Architecture**: Low-coupling domain layers allowing interchangeable persistence engines (SQL Server / MongoDB).
 
 ### 🚀 Frontend Practice Projects
 *   **Description**: A collection of structured web applications built using Vue and Angular. 
